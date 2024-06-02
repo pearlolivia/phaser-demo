@@ -33,10 +33,10 @@ class GameScene extends Scene {
 
     preload() {
         console.log('Game scene loaded');
-        this.load.image('starBackground', '/images/starBackground.png');
-        this.load.image('spaceship', '/images/spaceShip.png');
-        this.load.image('missile', '/images/missile.png');
-        this.load.image('alien', '/images/alien.png');
+        this.load.image('starBackground', 'images/starBackground.png');
+        this.load.image('spaceship', 'images/spaceShip.png');
+        this.load.image('missile', 'images/missile.png');
+        this.load.image('alien', 'images/alien.png');
 
         this.load.audio('laser', '/audio/laser1.wav');
     }
