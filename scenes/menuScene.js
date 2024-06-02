@@ -17,8 +17,8 @@ class MenuScene extends Scene {
 
     preload() {
         console.log('Menu scene loaded');
-        this.load.image('menuSceneBG', 'assets/aliens_screen_image2.jpg');
-        this.load.image('startButton', 'assets/start.png');
+        this.load.image('menuSceneBG', '/images/aliens_screen_image2.jpg');
+        this.load.image('startButton', '/images/start.png');
     }
 
     create() {

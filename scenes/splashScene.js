@@ -14,7 +14,7 @@ class SplashScene extends Scene {
 
     preload() {
         console.log('Splash scene loaded');
-        this.load.image('splashSceneBG', 'assets/splashSceneImage.png');
+        this.load.image('splashSceneBG', '/images/splashSceneImage.png');
     }
 
     create() {

@@ -17,7 +17,7 @@ class TitleScene extends Scene {
 
     preload() {
         console.log('Title scene loaded');
-        this.load.image('titleSceneBG', 'assets/aliens_screen_image.jpg');
+        this.load.image('titleSceneBG', '/images/aliens_screen_image.jpg');
     }
 
     create() {
