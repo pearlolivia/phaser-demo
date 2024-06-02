@@ -10,6 +10,7 @@ export default defineConfig({
         alias: {
             'root': path.resolve(__dirname, './'),
             'assets': path.resolve(__dirname, './assets'),
+            'images': path.resolve(__dirname, './public/images'),
             'scenes': path.resolve(__dirname, './scenes'),
         },
     },
